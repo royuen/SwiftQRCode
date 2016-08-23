@@ -229,7 +229,7 @@ public class QRCode: NSObject, AVCaptureMetadataOutputObjectsDelegate {
         drawLayer.removeFromSuperlayer()
     }
     
-    func clearDrawLayer() {
+    public func clearDrawLayer() {
         if drawLayer.sublayers == nil {
             return
         }
